@@ -25,7 +25,7 @@ export default function Navbar() {
           <Button variant="ghost" size="sm">
             Contact
           </Button>
-            <Link href={'/first-access'}>
+            <Link href={'/login'}>
               <Button size="sm">Sign Up</Button>
             </Link>
         </div>

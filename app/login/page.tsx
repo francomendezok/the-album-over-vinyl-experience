@@ -1,3 +1,8 @@
-export default function LoginPage() {
-    return <div>Login Page</div>
+import AuthForm from "@/app/login/auth-form"
+
+export default function Home() {
+    return (
+        <AuthForm />
+    )
+        
 }
