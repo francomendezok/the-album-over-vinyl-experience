@@ -57,8 +57,8 @@ export default function AuthForm() {
                 </div>
               </div>
               <div className="space-y-4">
-                <Input type="email" name="email" placeholder="m@example.com" className="bg-background" />
-                <Input type="password" name="password" placeholder="Password" className="bg-background" />
+                <Input type="email" name="email" placeholder="m@example.com" value="contact@cosdensolutions.io" className="bg-background" />
+                <Input type="password" name="password" placeholder="Password" value="12345678" className="bg-background" />
                 <Button disabled={pending} className="w-full" type="submit">
                   Create account
                 </Button>
